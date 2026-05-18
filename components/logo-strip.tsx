@@ -3,11 +3,10 @@
 import { motion } from "framer-motion"
 
 const logos = [
-  "University of Victoria",
   "Salyx Medical",
   "Lexiden",
+  "University of Victoria",
   "My Mom",
-  "This Cover Letter",
 ]
 
 export function LogoStrip() {
