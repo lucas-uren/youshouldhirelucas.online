@@ -89,7 +89,7 @@ function LucasLogo() {
       </svg>
       <div className="flex flex-col">
         <span className="text-lg font-bold leading-tight tracking-tight text-white">lucasuren</span>
-        <span className="text-[10px] leading-tight tracking-wider text-[#7fa89e]">by impact.com</span>
+        <span className="text-[10px] leading-tight tracking-wider text-[#7fa89e]">hire me impact.com</span>
       </div>
     </div>
   )

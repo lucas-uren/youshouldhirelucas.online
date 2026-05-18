@@ -14,7 +14,7 @@ export function Footer() {
               </svg>
               <div className="flex flex-col">
                 <span className="text-base font-bold leading-tight text-white">LucasUren</span>
-                <span className="text-[10px] leading-tight tracking-wider text-[#5a8a7e]">by impact.com</span>
+                <span className="text-[10px] leading-tight tracking-wider text-[#5a8a7e]">hire me impact.com</span>
               </div>
             </div>
             <address className="not-italic text-sm leading-relaxed text-[#5a8a7e]">
