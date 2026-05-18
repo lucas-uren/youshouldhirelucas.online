@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
   title: 'Lucas Uren | The World\'s Leading Lucas Management Platform',
-  description: 'Automate your hiring process. Grow your engineering team. Ship better code — all with one Lucas.',
+  description: 'Automate your hiring process. Grow your engineering team. Ship better code , all with one Lucas.',
 }
 
 export default function RootLayout({

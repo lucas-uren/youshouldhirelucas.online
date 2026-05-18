@@ -33,7 +33,7 @@ export function HeroSection() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-6 max-w-xl text-base leading-relaxed text-[#a3c4bc] md:text-lg"
         >
-          {"Automate your hiring process. Grow your engineering team. Ship better code — all with the most "}
+          {"Automate your hiring process. Grow your engineering team. Ship better code , all with the most "}
           <strong className="text-white">{"flexible Lucas on the market."}</strong>
         </motion.p>
 

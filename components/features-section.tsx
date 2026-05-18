@@ -69,7 +69,7 @@ const secondaryFeatures = [
   {
     icon: Terminal,
     title: "Full Stack Delivery",
-    description: "From Python and Flask backends to React frontends — Lucas ships complete features, not just components.",
+    description: "From Python and Flask backends to React frontends , Lucas ships complete features, not just components.",
   },
 ]
 
