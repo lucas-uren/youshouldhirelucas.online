@@ -37,7 +37,7 @@ export function Footer() {
             <h4 className="mb-4 text-xs font-semibold uppercase tracking-wider text-[#7fa89e]">Skills</h4>
             <ul className="space-y-2.5">
               {["TypeScript", "React / Next.js", "Node.js / Express", "PostgreSQL"].map((item) => (
-                <li key={item}><span className="text-sm text-[#5a8a7e] hover:text-white transition-colors cursor-default">{item}</span></li>
+                <li key={item}><a href="#skills" className="text-sm text-[#5a8a7e] hover:text-white transition-colors">{item}</a></li>
               ))}
             </ul>
           </div>
@@ -45,7 +45,7 @@ export function Footer() {
             <h4 className="mb-4 text-xs font-semibold uppercase tracking-wider text-[#7fa89e]">Solutions</h4>
             <ul className="space-y-2.5">
               {["Full Stack Dev", "Multi-Tenant Arch", "RAG Integration", "CI/CD Pipelines"].map((item) => (
-                <li key={item}><span className="text-sm text-[#5a8a7e] hover:text-white transition-colors cursor-default">{item}</span></li>
+                <li key={item}><a href="#features" className="text-sm text-[#5a8a7e] hover:text-white transition-colors">{item}</a></li>
               ))}
             </ul>
           </div>
@@ -54,8 +54,8 @@ export function Footer() {
             <ul className="space-y-2.5">
               <li><a href="https://github.com/lucas-uren" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-[#5a8a7e] hover:text-white transition-colors"><Github size={12} />GitHub</a></li>
               <li><a href="https://linkedin.com/in/lucasuren" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm text-[#5a8a7e] hover:text-white transition-colors"><Linkedin size={12} />LinkedIn</a></li>
-              <li><span className="text-sm text-[#5a8a7e] cursor-default">Resume</span></li>
-              <li><span className="text-sm text-[#5a8a7e] cursor-default">This Website</span></li>
+              <li><a href="#" className="text-sm text-[#5a8a7e] hover:text-white transition-colors">Resume</a></li>
+              <li><a href="#" className="text-sm text-[#5a8a7e] hover:text-white transition-colors">This Website</a></li>
             </ul>
           </div>
           <div>
@@ -63,8 +63,10 @@ export function Footer() {
             <ul className="space-y-2.5">
               {["Hire Lucas", "About", "Contact", "System Status: Online"].map((item) => (
                 <li key={item}>
-                  {item === "Hire Lucas" ? (
+                  {item === "Hire Lucas" || item === "Contact" ? (
                     <a href="mailto:urenlucas@gmail.com" className="text-sm text-[#5a8a7e] hover:text-white transition-colors">{item}</a>
+                  ) : item === "About" ? (
+                    <a href="#experience" className="text-sm text-[#5a8a7e] hover:text-white transition-colors">{item}</a>
                   ) : (
                     <span className="text-sm text-[#5a8a7e] cursor-default">{item}</span>
                   )}

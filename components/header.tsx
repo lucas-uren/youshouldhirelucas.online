@@ -73,10 +73,9 @@ export function Header() {
 
 function NavItem({ label }: { label: string }) {
   return (
-    <button className="flex items-center gap-1 text-sm text-[#c5d5d0] transition-colors hover:text-white">
+    <a href={`#${label.toLowerCase()}`} className="flex items-center gap-1 text-sm text-[#c5d5d0] transition-colors hover:text-white">
       {label}
-      <ChevronDown size={14} />
-    </button>
+    </a>
   )
 }
 
